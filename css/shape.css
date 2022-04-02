@@ -1,0 +1,123 @@
+/* google fonts poppins */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+font-family: 'Work Sans', Roboto,Poppins,'Open Sans';
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior: smooth;
+}
+body{
+    perspective: 600px;
+}
+:root{
+    --main-color:#7b5244;
+    --sub-color:black;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.heading-title{
+    width:100%;
+
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-top:3%;
+
+}
+.main-line{
+display: block;
+width: 8%;
+height: 2px;
+margin: .5% auto 0 ;
+border:1px solid var(--main-color-color);
+background-color: var(--main-color);
+}
+/* Start special category */
+/* start shape */
+.shape-container{
+    margin:auto;
+    display:flex;
+    text-align:center;
+    border-right:1px solid var(--main-color);
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+.shape-icon{
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    height:55px;
+}
+.double-face{
+    background-position: center 10px ;
+    transition:background-position .5s;
+}
+
+.shape-content:hover .double-face{
+    background-position: center -80px;
+}
+
+/* .double-face-1{
+    background-position: center -80px ;
+    transition:all .5s;
+} */
+.double-face-2{
+    background-position: center -172px ;
+    transition:all .5s;  
+}
+.shape-content:hover .double-face-2{
+    background-position: center -264px ;
+    transition:all .5s;  
+}   
+.double-face-4{
+    background-position: center -360px ;
+    transition:all .5s;  
+} 
+.shape-content:hover .double-face-4{
+    background-position: center -450px ;
+    transition:all .5s;  
+}
+ .double-face-6{
+    background-position: center -540px ;
+    transition:all .5s;  
+} 
+.shape-content:hover .double-face-6{
+    background-position: center -635px ;
+    transition:all .5s;  
+} 
+.double-face-8{
+    background-position: center -728px ;
+    transition:all .5s;  
+} 
+.shape-content:hover .double-face-8{
+    background-position: center -820px ;
+    transition:all .5s;  
+}  
+
+.shape-info{
+   width:90%;
+    display: block;
+    margin:3%;
+    line-height: 1.5;
+
+}
+.shape-h2{
+    font-size:17px;
+
+}
+.shape-p{
+    color:grey;
+    font-size:15px;
+}
+/* end shape */
